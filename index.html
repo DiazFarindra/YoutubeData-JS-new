@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-signin-client_id" content="5351956383-d7j3ounhb0jsq71p0rgn319pidl9rl4a.apps.googleusercontent.com">
+
+    <!-- Youtube Icon -->
+    <link rel="shortcut icon" href="https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico" type="image/x-icon">
+    <link rel="icon" href="https://s.ytimg.com/yts/img/favicon_32-vflOogEID.png" sizes="32x32">
+    <link rel="icon" href="https://s.ytimg.com/yts/img/favicon_48-vflVjB_Qk.png" sizes="48x48">
+    <link rel="icon" href="https://s.ytimg.com/yts/img/favicon_96-vflW9Ec0w.png" sizes="96x96">
+    <link rel="icon" href="https://s.ytimg.com/yts/img/favicon_144-vfliLAfaB.png" sizes="144x144">
+    
+    
+    <!-- Kit's code fontawesome -->
+    <script src="https://kit.fontawesome.com/f654b0bdad.js" crossorigin="anonymous"></script>
+
+
+    <title>Youtube Data API v3</title>
+
+</head>
+
+<body>
+
+    <h1>Yotube Data API v3</h1>
+
+    <!-- <div class="g-signin2" onclick="authenticate().then(loadClient)"></div> -->
+    <div class="g-signin2" onclick="authenticate().then(loadClient)">authorize and load</div>
+    <button onclick="signOut()">logout</button>
+    <button onclick="execute()">execute</button>
+
+    
+
+
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="./js/auth.js"></script>
+    <script src="./js/logout.js"></script>
+</body>
+
+</html>
